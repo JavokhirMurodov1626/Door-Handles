@@ -1,0 +1,61 @@
+:root {
+    --color-primary: #1E1E1E;
+    --color-primary-white:#fff;
+    --color-primary-orange:#E58411;
+    --color-secondary-dark: #0D1B39;
+    --color-secondary-gray:#8D8D8D;
+    --color-secondary-gray-light:#FAFAFA;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+ 
+body {
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-style: normal;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4, 
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+
+}
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+}

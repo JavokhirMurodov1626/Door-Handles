@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "Gilroy-Regular";
+    src: local("Gilroy-Regular"), url('/assets/fonts/gilroy-regular-webfont.woff') format("woff"),
+        local("Gilroy-Regular"), url('/assets/fonts/gilroy-regular-webfont.woff2') format("woff2");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: local("Gilroy-Medium"), url('/assets/fonts/gilroy-medium-webfont.woff') format("woff"),
+        local("Gilroy-Medium"), url('/assets/fonts/gilroy-medium-webfont.woff2') format("woff2");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: local("Gilroy-Bold"), url('/assets/fonts/gilroy-bold-webfont.woff') format("woff"),
+        local("Gilroy-Bold"), url('/assets/fonts/gilroy-bold-webfont.woff2') format("woff2");
+    font-style: normal;
+}
+
+h1,
+.h1 {
+    font-family: 'Gilroy-Bold';
+    font-size: 80px;
+    line-height: 130%;
+    letter-spacing: -0.01em;
+}
+
+h2,
+.h2 {
+    font-family: 'Gilroy-Bold';
+    font-size: 42px;
+    line-height: 49px;
+}
+
+h3,
+.h3 {
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    line-height: 28px;
+
+}
+
+h4,
+.h4 {
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    line-height: 21px;
+}
+
+p,
+.p {
+
+    font-family: 'Gilroy-Regular';
+    font-size: 18px;
+    line-height: 185%;
+}
+
+.footer-link {
+    font-family: 'Gilroy-Medium';
+    font-size: 15px;
+    line-height: 160%;
+}

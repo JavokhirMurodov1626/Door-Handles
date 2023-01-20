@@ -1,0 +1,41 @@
+.product-content {
+    padding: 2rem;
+    height: 40%;
+}
+
+.product-img-wrap {
+    padding: 3.5rem 2.5rem;
+    height: 60%;
+    background-color: #fafafa;
+    position: relative;
+}
+
+.product-img-wrap img {
+    position: absolute;
+    top: -5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 25.5rem;
+    width: 80%;
+    border-radius: 2rem;
+
+}
+
+.product-content h3 {
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 21.3251px;
+    line-height: 26px;
+    color: #0D1B39;
+}
+.product-content .product-price{
+    font-family: 'Gilroy-Regular';
+}
+.product-box {
+    background: var(--color-primary-white);
+    border-radius: 2rem;
+    height: 35rem;
+}
+.category{
+    text-transform: capitalize;
+}

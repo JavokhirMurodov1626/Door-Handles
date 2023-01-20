@@ -1,0 +1,55 @@
+<div class="swiper-wrap">
+    <swiper [config]="config" class="products-swiper" #swiper [virtual]="true">
+        <ng-template swiperSlide>
+            <app-product-box 
+            [productName]="'Sakarias Armchair'"
+            [productCategory]="'Handle'"
+            [productPrice]="20"
+            ></app-product-box>
+        </ng-template>
+        <ng-template swiperSlide>
+            <app-product-box
+            [productName]="'Sakarias Armchair'"
+            [productCategory]="'Handle'"
+            [productPrice]="20"
+            ></app-product-box>
+        </ng-template>
+        <ng-template swiperSlide>
+            <app-product-box
+            [productName]="'Sakarias Armchair'"
+            [productCategory]="'Handle'"
+            [productPrice]="20"
+            ></app-product-box>
+        </ng-template>
+        <ng-template swiperSlide>
+            <app-product-box
+            [productName]="'Sakarias Armchair'"
+            [productCategory]="'Handle'"
+            [productPrice]="20"
+            ></app-product-box>
+        </ng-template>
+        <ng-template swiperSlide>
+            <app-product-box
+            [productName]="'Sakarias Armchair'"
+            [productCategory]="'Handle'"
+            [productPrice]="20"
+            ></app-product-box>
+        </ng-template>
+        <ng-template swiperSlide>
+            <app-product-box
+            [productName]="'Sakarias Armchair'"
+            [productCategory]="'handle'"
+            [productPrice]="20"
+            ></app-product-box>
+        </ng-template>
+       
+    </swiper>
+    <div class="slider-control-prev slider-control" (click)="slidePrev()">
+        <img src="/assets/icons/slider-prev.svg" alt="">
+    </div>
+    
+    <div class="slider-control-next slider-control" (click)="slideNext()">
+        <img src="/assets/icons/slider-next.svg" alt="">
+    </div>
+</div>
+

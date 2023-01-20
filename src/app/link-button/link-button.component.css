@@ -1,0 +1,12 @@
+a {
+    font-family: 'Gilroy-Medium';
+    font-size: 14px;
+    line-height: 185%;
+    color: #E58411;
+    cursor: pointer;
+}
+a::after{
+    content: url('/assets/icons/link-arrow-icon.svg');
+    margin-left: 1.75rem;
+    transition: 0.25s;
+}

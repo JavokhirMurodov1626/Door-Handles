@@ -1,0 +1,26 @@
+.why-choose-us {
+    width: 100%;
+    padding: 12rem 8rem;
+    display: flex;
+}
+
+.section-title-box {
+    padding-right: 13rem;
+}
+
+.section-boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.8rem;
+}
+
+.section-box h3 {
+    margin-bottom: 2rem;
+}
+
+.section-box p {
+    margin-bottom: 1.4rem;
+    font-size: 16px;
+    color: #1E1E1E;
+    opacity: 0.8;
+}

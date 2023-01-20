@@ -1,0 +1,34 @@
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+.swiper-wrap{
+    position: relative;
+}
+.products-swiper{
+    padding-top: 5rem;
+}
+.swiper-button-next{
+    display: none;
+}
+.swiper-button-prev{
+   display: none;
+}
+.slider-control{
+    width: 5rem;
+    height: 5rem;
+    padding: 1.3rem;
+    background-color:var(--color-primary-white);
+    border-radius: 100%;
+    position: absolute;
+}
+.slider-control-prev {
+    top:50%;
+    transform: translateY(-50%);
+    z-index:111;
+    left: -2.5rem;
+}
+.slider-control-next {
+    top:50%;
+    transform: translateY(-50%);
+    z-index:111;
+    right: -2.5rem;
+}

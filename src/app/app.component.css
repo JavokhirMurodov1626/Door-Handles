@@ -1,0 +1,10 @@
+@import url('./css/typography.css');
+@import url('./css/base.css');
+
+nav{
+    position: absolute;
+}
+
+.products-section .link-button{
+    font-size: 1.8rem;
+}
