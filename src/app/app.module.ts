@@ -14,6 +14,7 @@ import { SwiperModule } from 'swiper/angular';
 import { ImgWithSidetextComponent } from './img-with-sidetext/img-with-sidetext.component';
 import { PricesComponent } from './prices/prices.component';
 import { ContactSectionComponent } from './contact-section/contact-section.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ContactSectionComponent } from './contact-section/contact-section.compo
     ProductsSectionComponent,
     ImgWithSidetextComponent,
     PricesComponent,
-    ContactSectionComponent
+    ContactSectionComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

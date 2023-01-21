@@ -8,3 +8,9 @@ nav{
 .products-section .link-button{
     font-size: 1.8rem;
 }
+.footer{
+    background-color: #f7f7f7;
+}
+.contact-section{
+    margin-bottom: 24rem;
+}
