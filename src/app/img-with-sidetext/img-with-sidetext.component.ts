@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,Input } from '@angular/core';
 
 @Component({
   selector: 'app-img-with-sidetext',
@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./img-with-sidetext.component.css']
 })
 export class ImgWithSidetextComponent {
-
+  @Input() feature:string='';
+  @Input() title:string='';
+  @Input() text:string='';
+  @Input() imgUrl:string='';
+  @Input() imgUrl_2:string='';
+  @Input() imgUrl_3:string='';
+  @Input() reversed=false;
 }

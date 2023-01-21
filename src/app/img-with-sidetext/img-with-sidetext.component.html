@@ -1,16 +1,19 @@
-<section class="img-with-sidetext">
+<section class="img-with-sidetext" [ngClass]=" reversed ? 'reversed'  :''">
+
     <div class="section-img-wrap">
         <div class="background-shadow-top">
-
         </div>
+
         <div class="background-shadow-side"></div>
-        <img src="/assets/images/handle-img-text.jpg" alt="">
+        <img src={{imgUrl}} alt="">
+        <img src={{imgUrl_2}} alt="">
+        <img class="wide-img" src={{imgUrl_3}} alt="">
     </div>
+
     <div class="content-box">
-        <h4>experiences</h4>
-        <h2>we provide you the best experience</h2>
-        <p>You don’t have to worry about the result because all of these interiors are made by people who are
-            professionals in their fields with an elegant and lucurious style and with premium quality materials</p>
+        <h4>{{feature}}</h4>
+        <h2>{{title}}</h2>
+        <p>{{text}}</p>
 
         <app-link-button [text]="'More Info'"></app-link-button>
     </div>
