@@ -5,13 +5,18 @@ nav {
     display: flex;
 
 }
-
+.navbar-brand{
+    width: 8rem;
+}
 nav .nav-menu {
     display: flex;
     gap: 6rem;
     margin: 0 auto;
 }
-
+.navbar-item{
+    display: flex;
+    align-items: center;
+}
 .nav-link {
     color: var(--color-primary-white);
     font-family: 'Gilroy-Medium';
