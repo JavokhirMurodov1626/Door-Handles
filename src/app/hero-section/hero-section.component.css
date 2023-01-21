@@ -2,32 +2,36 @@
     width: 100%;
     height: 100vh;
     max-height: 1080px;
-    background: url('/assets/images/hero-bg-img.webp');
+    background: url('/assets/images/hero-bg-img.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 16.1rem 29rem 4rem 29rem;
+    padding: 16.1rem 8rem 4rem 8rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
 }
-
+.hero-section__content{
+    width: 50%;
+    padding-right: 8rem;
+   
+}
 .hero-section__content h1 {
-    text-align: center;
     color: var(--color-primary-white);
     margin-bottom: 1.5rem;
+    text-align: left;
 }
 
 .hero-section__content .content__text {
     font-family: "Gilroy-Regular";
     font-size: 24px;
     line-height: 160%;
-    text-align: center;
     color: var(--color-primary-white);
     opacity: 0.8;
-    padding: 0 13rem;
     margin-bottom: 4.5rem;
-}
+    text-align:left;
 
+}
+/* 
 .hero-section__content .search-box {
     display: flex;
     padding: 0.8rem 0.8rem 0.8rem 2rem;
@@ -37,9 +41,9 @@
     border-radius: 4.2rem;
     max-width: 34.4rem;
     margin: 0 auto;
-}
+} */
 
-.hero-section__content .search-box label {
+/* .hero-section__content .search-box label {
     display: inline-block;
     width: 4rem;
     height: 4rem;
@@ -66,4 +70,4 @@
     line-height: 150%;
     color: var(--color-primary-white);
     opacity: 0.8;
-}
+} */
