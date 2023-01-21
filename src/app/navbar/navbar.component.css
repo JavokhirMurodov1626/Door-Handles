@@ -3,13 +3,13 @@ nav {
     width: 100%;
     padding: 4rem 8rem;
     display: flex;
-
 }
 .navbar-brand{
-    width: 8rem;
+    width: 6rem;
 }
 nav .nav-menu {
     display: flex;
+    align-items: center;
     gap: 6rem;
     margin: 0 auto;
 }
