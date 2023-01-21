@@ -12,6 +12,8 @@ import { ReviewBoxComponent } from './review-box/review-box.component';
 import { ProductsSectionComponent } from './products-section/products-section.component';
 import { SwiperModule } from 'swiper/angular';
 import { ImgWithSidetextComponent } from './img-with-sidetext/img-with-sidetext.component';
+import { PricesComponent } from './prices/prices.component';
+import { ContactSectionComponent } from './contact-section/contact-section.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { ImgWithSidetextComponent } from './img-with-sidetext/img-with-sidetext.
     ProductBoxComponent,
     ReviewBoxComponent,
     ProductsSectionComponent,
-    ImgWithSidetextComponent
+    ImgWithSidetextComponent,
+    PricesComponent,
+    ContactSectionComponent
   ],
   imports: [
     BrowserModule,

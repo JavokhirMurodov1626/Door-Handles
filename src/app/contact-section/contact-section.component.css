@@ -1,0 +1,44 @@
+.contact-section{
+    width: 100%;
+    margin-top: 24rem;
+    position: relative;
+}
+
+.googlemap{
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+}
+.googlemap iframe{
+    width: 100%;
+    border-radius: 2rem;
+}
+.contact-box{
+    background-color: #f7f7f7;
+    width: max-content;
+    display: flex;
+    gap: 4rem;
+    margin:0 auto;
+    border-radius: 4rem;
+    padding: 1.5rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -4.2rem;
+}
+.box-item{
+    display: flex;
+    gap: 2rem;
+}
+.box-item h4{
+    text-transform: capitalize;
+    
+}
+.box-item p{
+    font-family: "Gilroy-Medium";
+    text-transform: capitalize;
+}
+.box-icon{
+    width: 4rem;
+    height: 4rem;
+}
