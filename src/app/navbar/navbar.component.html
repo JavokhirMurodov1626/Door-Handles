@@ -1,10 +1,24 @@
 <nav >
-    <a href="#" class="navbar-brand"><img src="/assets/icons/new-logo.svg" alt=""></a>
-    <ul class="nav-menu">
+    <div class="nav-container container" #navbar>
+
+        <a href="#" class="navbar-brand"><img src="/assets/icons/new-logo.svg" alt=""></a>
+        <ul class="nav-menu">
             <li class="nav-item"><a href="#products" class="nav-link h4">Products</a></li>
             <li class="nav-item"><a href="#why-us" class="nav-link h4">Why us</a></li>
             <li class="nav-item"><a href="#features" class="nav-link h4">Features</a></li>
             <li class="nav-item"><a href="#about" class="nav-link h4">About Us</a></li>
             <li class="nav-item"><a href="#contact" class="nav-link h4">Contact</a></li>
-    </ul>
+        </ul>
+
+        <div class="menu-btn-3" (click)="menuBtnFunction(hamburgerBtn,hamburgerModal,navbar)" #hamburgerBtn>
+            <span></span>
+        </div>
+    </div>
 </nav>
+<ul class="nav-menu hamburger-modal" #hamburgerModal>
+    <li class="nav-item"><a href="#products" class="nav-link h4">Products</a></li>
+    <li class="nav-item"><a href="#why-us" class="nav-link h4">Why us</a></li>
+    <li class="nav-item"><a href="#features" class="nav-link h4">Features</a></li>
+    <li class="nav-item"><a href="#about" class="nav-link h4">About Us</a></li>
+    <li class="nav-item"><a href="#contact" class="nav-link h4">Contact</a></li>
+</ul>
