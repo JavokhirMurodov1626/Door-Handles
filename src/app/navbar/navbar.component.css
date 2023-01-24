@@ -141,6 +141,7 @@ nav .nav-menu {
         gap: 4rem;
         top: 6.6rem;
         padding-top: 10rem;
+        max-height: calc(100vh - 6.6rem);
       
     }
     .hamburger-modal .nav-link{

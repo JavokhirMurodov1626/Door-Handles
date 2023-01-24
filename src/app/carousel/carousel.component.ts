@@ -22,6 +22,21 @@ export class CarouselComponent {
     autoplay:{
       delay:3000
     },
+    breakpoints: {
+      // when window width is >= 320px
+      320: {
+        slidesPerView: 1,
+      },
+      // when window width is >= 640px
+      767: {
+        slidesPerView: 3,
+        spaceBetween: 24
+      },
+      1024:{
+        slidesPerView:4,
+        spaceBetween:42
+      }
+    }
   };
 
   slideNext(){

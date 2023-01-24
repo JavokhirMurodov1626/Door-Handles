@@ -1,19 +1,30 @@
 @import url('./css/typography.css');
 @import url('./css/base.css');
 
-nav{
+nav {
     position: absolute;
 }
 
-.products-section .link-button{
+.products-section .link-button {
     font-size: 1.8rem;
 }
-.footer{
+
+.footer {
     background-color: #f7f7f7;
 }
-.contact-section{
+
+.contact-section {
     margin-bottom: 24rem;
 }
-header{
+
+header {
     background-color: blue;
+}
+
+@media screen and (max-width:767px) {
+    .why-choose-us .link-button {
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
 }

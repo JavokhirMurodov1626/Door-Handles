@@ -39,3 +39,17 @@
 .category{
     text-transform: capitalize;
 }
+
+@media screen and (max-width:1023px) {
+    .product-content {
+        padding: 1.6rem;
+    }
+    .product-content h3 {
+        margin-bottom: 1.6rem;
+        font-weight: 600;
+        color: #0D1B39;
+    }
+    .product-content .product-price{
+        font-family: 'Gilroy-Regular';
+    }
+}
