@@ -28,3 +28,9 @@ header {
         margin: 0 auto;
     }
 }
+@media screen and (max-width:1023px) {
+    .contact-section {
+        margin-bottom: 4rem;
+    }
+    
+}
