@@ -62,3 +62,71 @@ p,
     font-size: 15px;
     line-height: 160%;
 }
+
+@media screen and (max-width:1023px){
+    h1,
+.h1 {
+    font-size: 64px;
+    line-height: 80px;
+}
+
+h2,
+.h2 {
+    font-size: 32px;
+    line-height: 48px;
+}
+
+h3,
+.h3 {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+h4,
+.h4 {
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    line-height: 21px;
+}
+
+p,
+.p {
+
+    font-family: 'Gilroy-Regular';
+    font-size: 18px;
+    line-height: 185%;
+}
+
+}
+@media screen and (max-width:767px){
+    h1,
+.h1 {
+    font-size: 32px;
+    line-height: 48px;
+}
+
+h2,
+.h2 {
+    font-size: 24px;
+    line-height: 48px;
+}
+
+h3,
+.h3 {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+h4,
+.h4 {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+p,
+.p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+}

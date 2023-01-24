@@ -38,6 +38,7 @@ nav .nav-menu {
     height: 32px;
     width: 40px;
     cursor: pointer;
+    display: none;
 }
 
 .menu-btn-3 span,
@@ -84,7 +85,10 @@ nav .nav-menu {
     margin-top: 0;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1023px) {
+    .menu-btn-3{
+        display: block;
+    }
     .nav-container {
         padding: 2.4rem;
     }
@@ -105,6 +109,8 @@ nav .nav-menu {
         left: 0;
         top: 8.3rem;
         bottom: 0;
+        background-color: orange;
+        max-height: calc(100vh - 18.3rem);
         z-index: 1;
         padding-top: 20rem;
         transition: 0.25s ease-out;
