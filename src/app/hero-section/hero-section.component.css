@@ -13,7 +13,9 @@
     padding-right: 8rem;
     display: flex;
     flex-direction: column;
-    justify-content: center; 
+    justify-content: center;
+    height: 100vh;
+    max-height: 1080px;
 }
 .hero-section__content h1 {
     color: var(--color-primary-white);
