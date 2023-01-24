@@ -8,7 +8,6 @@ import { WhyChooseUsComponent } from './why-choose-us/why-choose-us.component';
 import { LinkButtonComponent } from './link-button/link-button.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { ProductBoxComponent } from './product-box/product-box.component';
-import { ReviewBoxComponent } from './review-box/review-box.component';
 import { ProductsSectionComponent } from './products-section/products-section.component';
 import { SwiperModule } from 'swiper/angular';
 import { ImgWithSidetextComponent } from './img-with-sidetext/img-with-sidetext.component';
@@ -25,7 +24,6 @@ import { FooterComponent } from './footer/footer.component';
     LinkButtonComponent,
     CarouselComponent,
     ProductBoxComponent,
-    ReviewBoxComponent,
     ProductsSectionComponent,
     ImgWithSidetextComponent,
     PricesComponent,
