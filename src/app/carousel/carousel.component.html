@@ -3,7 +3,7 @@
         <ng-template swiperSlide *ngFor="let product of fetchedProducts">
             <app-product-box 
             [productName]=product.name
-            [productCategory]="'hello'"
+            [productCategory]="getCategory(product.categoryId)"
             [productPrice]=product.price
             [productImage]=product.image
             ></app-product-box>

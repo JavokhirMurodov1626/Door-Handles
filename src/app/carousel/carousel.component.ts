@@ -1,8 +1,17 @@
-import { Component, ViewEncapsulation, ViewChild, Input, OnInit, AfterViewInit, OnDestroy } from '@angular/core';
+import {
+  Component,
+  ViewEncapsulation,
+  ViewChild,
+  Input,
+  OnInit,
+  AfterViewInit,
+  OnDestroy,
+} from '@angular/core';
 import SwiperCore, { SwiperOptions, Swiper } from 'swiper';
 import { Navigation, Autoplay } from 'swiper';
 import { SwiperComponent } from 'swiper/angular';
 import { Product } from '../all-products';
+import { categories } from '../all-products';
 
 // install Swiper modules
 SwiperCore.use([Navigation, Autoplay]);
@@ -36,9 +45,7 @@ export class CarouselComponent implements OnInit, AfterViewInit, OnDestroy {
     },
   };
 
-  ngOnInit(): void {
-   
-  }
+  ngOnInit(): void {}
 
   ngAfterViewInit(): void {
     this.initializeSwiper();
@@ -82,5 +89,12 @@ export class CarouselComponent implements OnInit, AfterViewInit, OnDestroy {
     if (this.swiperInstance) {
       this.swiperInstance.slidePrev();
     }
+  }
+  getCategory(id: number) {
+    const category = categories.find((category) => category.id === id);
+    if (category) {
+      return category.name;
+    }
+    return '';
   }
 }
