@@ -27,6 +27,7 @@
     font-size: 21.3251px;
     line-height: 26px;
     color: #0D1B39;
+    text-transform: capitalize;
 }
 .product-content .product-price{
     font-family: 'Gilroy-Regular';
@@ -38,6 +39,7 @@
 }
 .category{
     text-transform: capitalize;
+
 }
 
 @media screen and (max-width:1023px) {

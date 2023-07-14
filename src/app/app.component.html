@@ -1,5 +1,5 @@
-<header >
-    <app-navbar></app-navbar>
+<header>
+    <app-navbar (selectLang)="handleSelectLang($event)"></app-navbar>
     <app-hero-section></app-hero-section>
 </header>
 <main class="container">
@@ -10,20 +10,14 @@
 
     <app-img-with-sidetext
         [text]="'You don’t have to worry about the result because all of these interiors are made by people who are professionals in their fields with an elegant and lucurious style and with premium quality materials'"
-        [feature]="'experiences'"
-        [title]="'we provide you the best experience'"
-        [imgUrl]="'/assets/images/handle-img-text.jpg'"
-    ></app-img-with-sidetext>
+        [feature]="'experiences'" [title]="'we provide you the best experience'"
+        [imgUrl]="'/assets/images/handle-img-text.jpg'"></app-img-with-sidetext>
 
     <app-img-with-sidetext
         [text]="'Because panto was very serious about designing furniture for our environment, using a very expensive and famous capital but at a relatively low price'"
-        [feature]="'Materials'"
-        [title]="'Very serious materials for making furniture'"
-        [imgUrl]="'/assets/images/door-handle2.jpg'"
-        [imgUrl_2]="'/assets/images/door-handle3.jpg'"
-        [imgUrl_3]="'/assets/images/door-handle4.jpg'"
-        [reversed]=true
-    ></app-img-with-sidetext>
+        [feature]="'Materials'" [title]="'Very serious materials for making furniture'"
+        [imgUrl]="'/assets/images/door-handle2.jpg'" [imgUrl_2]="'/assets/images/door-handle3.jpg'"
+        [imgUrl_3]="'/assets/images/door-handle4.jpg'" [reversed]=true></app-img-with-sidetext>
 
     <app-prices></app-prices>
     <app-contact-section></app-contact-section>

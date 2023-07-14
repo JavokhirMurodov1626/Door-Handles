@@ -1,8 +1,14 @@
 <section class="products-section" id="products">
     <h2>Best Selling Product</h2>
-    <app-carousel></app-carousel>
+    <div class="button-group">
+        <div *ngFor="let category of handleCategories">
+            <input id="{{category.id}}" type="radio" name="product-type" [checked]="category.id===1">
+            <label for="{{category.id}}" class="category-button h4"
+                (click)="getProducts(category.id)">{{category.name}}</label>
+        </div>
+    </div>
+    <app-carousel [fetchedProducts]="filteredHandles"></app-carousel>
     <div class="link-wrap">
         <app-link-button [text]="'View More'"></app-link-button>
     </div>
 </section>
- 

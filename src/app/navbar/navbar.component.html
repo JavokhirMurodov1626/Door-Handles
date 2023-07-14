@@ -3,11 +3,15 @@
 
         <a href="#" class="navbar-brand"><img src="/assets/icons/new-logo.svg" alt=""></a>
         <ul class="nav-menu">
-            <li class="nav-item"><a href="#products" class="nav-link h4">Products</a></li>
-            <li class="nav-item"><a href="#why-us" class="nav-link h4">Why us</a></li>
-            <li class="nav-item"><a href="#features" class="nav-link h4">Features</a></li>
-            <li class="nav-item"><a href="#about" class="nav-link h4">About Us</a></li>
-            <li class="nav-item"><a href="#contact" class="nav-link h4">Contact</a></li>
+            <li class="nav-item"><a href="#products" class="nav-link h4">{{'products' | translate}}</a></li>
+            <li class="nav-item"><a href="#why-us" class="nav-link h4">{{'why-us' | translate}}</a></li>
+            <li class="nav-item"><a href="#features" class="nav-link h4">{{'features' | translate}}</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link h4">{{'about' | translate}}</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link h4">{{'contact' | translate}}</a></li>
+            <select  class="lang-select" (change)="changeLanguage($event)">
+                <option value="en">EN</option>
+                <option value="ru">RU</option>
+            </select>
         </ul>
 
         <div class="menu-btn-3" (click)="menuBtnFunction(hamburgerBtn,hamburgerModal,navbar)" #hamburgerBtn>
@@ -23,4 +27,8 @@
         <li class="nav-item"><a href="#features" class="nav-link h4">Features</a></li>
         <li class="nav-item"><a href="#about" class="nav-link h4">About Us</a></li>
         <li class="nav-item"><a href="#contact" class="nav-link h4">Contact</a></li>
+        <select  id="" class="lang-select" (change)="changeLanguage($event)">
+            <option value="en">EN</option>
+            <option value="ru">RU</option>
+        </select>
     </ul>

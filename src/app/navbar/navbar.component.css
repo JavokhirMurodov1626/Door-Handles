@@ -20,6 +20,19 @@ nav .nav-menu {
     align-items: center;
     gap: 6rem;
 }
+
+.lang-select{
+    background: none;
+    border: none;
+    outline: none;
+    color: var(--color-primary-white);
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 21px;
+}
+.lang-select option{
+    color: #29242B;
+}
 .hamburger-modal{
     display: none;
 }
@@ -31,6 +44,7 @@ nav .nav-menu {
 .nav-link {
     color: var(--color-primary-white);
     font-family: 'Gilroy-Medium';
+    text-transform: capitalize;
 }
 
 /* Menu Button 3 */

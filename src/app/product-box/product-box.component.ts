@@ -8,6 +8,7 @@ import { Component, Input } from '@angular/core';
 export class ProductBoxComponent {
   @Input() productCategory:String='';
   @Input() productName:String='';
-  @Input() productPrice:Number=0
+  @Input() productPrice:Number=0;
+  @Input() productImage:String='';
 
 }
